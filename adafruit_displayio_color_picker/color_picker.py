@@ -125,11 +125,10 @@ class ColorPicker(Widget, Control):
         **kwargs,
     ):
 
-        super().__init__(
+        Widget.__init__(
             self, x=x, y=y, height=image_size, width=image_size, **kwargs, max_size=4
         )
-        # pylint: disable=bad-super-call
-        super(Control, self).__init__()
+        Control.__init__(self)
 
         self._file = open(filename, "rb")
         image = OnDiskBitmap(self._file)

@@ -7,6 +7,10 @@
 Color Picker
 ============
 
+.. automodule:: adafruit_displayio_layout.widgets.widget
+   :members:
+   :member-order: bysource
+
 .. automodule:: adafruit_displayio_color_picker
    :members:
 
