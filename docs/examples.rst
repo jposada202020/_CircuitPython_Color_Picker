@@ -17,4 +17,3 @@ Shows how to make color wheel bitmaps
     :caption: examples/displayio_color_picker_wheel_maker_simpletest.py
     :linenos:
     :lines: 8-
-
