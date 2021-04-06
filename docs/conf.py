@@ -27,10 +27,11 @@ extensions = [
 # autodoc module docs will fail to generate with a warning.
 autodoc_mock_imports = [
     "digitalio",
+    "vectorio",
+    "bitmaptools",
     "busio",
     "adafruit_sdcard",
     "storage",
-    "adafruit_displayio_layout",
     "adafruit_display_text",
     "displayio",
 ]
