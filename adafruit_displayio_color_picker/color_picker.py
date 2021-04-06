@@ -125,10 +125,10 @@ class ColorPicker(Widget, Control):
         **kwargs,
     ):
 
-        Widget.__init__(
+        super().__init__(
             self, x=x, y=y, height=image_size, width=image_size, **kwargs, max_size=4
         )
-        Control.__init__(self)
+        super(Control, self).__init__()
 
         self._file = open(filename, "rb")
         image = OnDiskBitmap(self._file)
