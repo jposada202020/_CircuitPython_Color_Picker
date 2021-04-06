@@ -21,7 +21,7 @@ extensions = [
     "sphinx.ext.todo",
 ]
 
-autodoc_inherit_docstrings = True
+suppress_warnings = ["autodoc.import_object"]
 
 # TODO: Please Read!
 # Uncomment the below if you use native CircuitPython modules such as
