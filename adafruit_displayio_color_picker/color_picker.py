@@ -86,8 +86,8 @@ class ColorPicker(Widget, Control):
     .. code-block:: python
 
         my_colorpicker= ColorPicker(20, 30)
-        my_group = displayio.Group(max_size=10) # make a group that can hold 10 items
-        my_group.append(my_colorpicker) # Add my_slider to the group
+        my_group = displayio.Group(max_size=2) # make a group that can hold 2 items
+        my_group.append(my_colorpicker) # Add my_colorpicker to the group
 
         #
         # Append other display elements to the group
