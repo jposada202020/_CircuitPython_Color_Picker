@@ -6,3 +6,6 @@
 
 Color Picker
 ============
+
+.. automodule:: adafruit_displayio_color_picker
+   :members:
