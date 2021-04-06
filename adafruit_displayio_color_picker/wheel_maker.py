@@ -129,6 +129,23 @@ def make_wheel(image_name, img_size, bg_color=0x000000):
     :param img_size: size of the bitmap image in pixels height=width
     :param bg_color: color of the background in 24 bit format. Defaults 0x000000
     :return: color
+
+
+    **Quickstart: Importing and using the make_wheel**
+
+    Here is one way of importing the ``make_wheel`` module so you can use:
+
+    .. code-block:: python
+
+        from adafruit_displayio_color_picker import wheel_maker
+
+    Now you can create a wheel of 200 pixels with a black background using:
+
+    .. code-block:: python
+
+        make_wheel("wheel200.bmp", 200 , 0x000000)
+
+
     """
     img_size_width = img_size
     img_size_height = img_size
