@@ -48,10 +48,6 @@ __repo__ = (
 # pylint: disable=missing-class-docstring, too-few-public-methods
 
 
-class MC(Widget, Control):
-    pass
-
-
 class ColorPicker(Widget, Control):
     """A widget to be used to select colors from a heel.
 
@@ -121,8 +117,6 @@ class ColorPicker(Widget, Control):
 
     # pylint: disable=too-many-lines, too-many-instance-attributes, too-many-arguments
     # pylint: disable=too-many-locals, too-many-statements
-
-    __metaclass__ = MC
 
     def __init__(
         self,
