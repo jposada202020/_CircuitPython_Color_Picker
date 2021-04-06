@@ -36,6 +36,7 @@ Implementation Notes
 
 import math
 from displayio import TileGrid, OnDiskBitmap, ColorConverter
+
 try:
     from adafruit_displayio_layout.widgets.widget import Widget
     from adafruit_displayio_layout.widgets.control import Control
