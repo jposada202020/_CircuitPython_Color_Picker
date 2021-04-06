@@ -128,6 +128,7 @@ class ColorPicker(Widget, Control):
         super().__init__(
             self, x=x, y=y, height=image_size, width=image_size, **kwargs, max_size=4
         )
+        # pylint: disable=bad-super-call
         super(Control, self).__init__()
 
         self._file = open(filename, "rb")
