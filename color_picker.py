@@ -5,7 +5,8 @@
 `adafruit_displayio_color_picker`
 ================================================================================
 
-CircuitPython helper library to select color using a color wheel in resistive displays using DisplayIO library
+CircuitPython helper library to select color using a color wheel in resistive
+displays using DisplayIO library
 
 
 * Author(s): Jose David M.
@@ -40,7 +41,9 @@ from adafruit_displayio_layout.widgets.control import Control
 
 
 __version__ = "0.0.0-auto.0"
-__repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Color_Picker.git"
+__repo__ = (
+    "https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Color_Picker.git"
+)
 
 
 class ColorPicker(Widget, Control):
