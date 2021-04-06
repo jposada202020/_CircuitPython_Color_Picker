@@ -10,5 +10,8 @@ Color Picker Library
 .. automodule:: adafruit_displayio_color_picker
    :members:
 
+.. autoclass:: ColorPicker
+   :members:
+
 .. automodule:: adafruit_displayio_color_picker.wheel_maker
    :members:
