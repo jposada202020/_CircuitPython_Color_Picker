@@ -31,8 +31,6 @@ autodoc_mock_imports = [
     "adafruit_sdcard",
     "storage",
     "adafruit_displayio_layout",
-    "adafruit_displayio_layout.widgets",
-    "adafruit_displayio_layout.layouts",
     "adafruit_display_text",
     "displayio",
 ]
