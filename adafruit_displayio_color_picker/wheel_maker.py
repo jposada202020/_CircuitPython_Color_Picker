@@ -6,7 +6,7 @@
 # SPDY-License-Identifier: Unlicense
 
 """
-`adafruit_wheel_maker`
+`wheel_maker`
 ================================================================================
 
 Save a displayio.Bitmap (and associated displayio.Palette) in a BMP file.
@@ -123,11 +123,11 @@ color_wheel = [
 ]
 
 
-def make_wheel(image_name, img_size, bg_color):
+def make_wheel(image_name, img_size, bg_color=0x000000):
     """
-    :param image_name: TBD
-    :param img_size: TBD
-    :param bg_color: TBD
+    :param image_name: Name of the ouput bitmap image
+    :param img_size: size of the bitmap image in pixels height=width
+    :param bg_color: color of the background in 24 bit format. Defaults 0x000000
     :return: color
     """
     img_size_width = img_size

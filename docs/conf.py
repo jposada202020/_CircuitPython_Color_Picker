@@ -30,8 +30,7 @@ autodoc_mock_imports = [
     "busio",
     "adafruit_sdcard",
     "storage",
-    "adafruit_displayio_layout.widgets",
-    "adafruit_displayio_color_picker",
+    "adafruit_displayio_layout",
     "adafruit_display_text",
     "displayio",
 ]

@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 """
-`adafruit_displayio_color_picker`
+`color_picker`
 ================================================================================
 
 CircuitPython helper library to select color using a color wheel in resistive
