@@ -10,8 +10,8 @@ import board
 import terminalio
 from displayio import Group, TileGrid, Bitmap, Palette
 from adafruit_display_text import bitmap_label
-from adafruit_displayio_color_picker import color_picker
 import adafruit_touchscreen
+from adafruit_displayio_color_picker import color_picker
 
 
 display = board.DISPLAY
