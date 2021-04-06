@@ -21,8 +21,6 @@ extensions = [
     "sphinx.ext.todo",
 ]
 
-suppress_warnings = ["autodoc.import_object"]
-
 # TODO: Please Read!
 # Uncomment the below if you use native CircuitPython modules such as
 # digitalio, micropython and busio. List the modules you use. Without it, the
