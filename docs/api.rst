@@ -13,6 +13,7 @@ Color Picker Library
 .. automodule:: adafruit_displayio_color_picker.color_picker
    :members:
    :inherited-members:
+   :exclude-members: adafruit_displayio_layout.widgets.widget, adafruit_displayio_layout.widgets.control
 
 .. automodule:: adafruit_displayio_color_picker.wheel_maker
    :members:
