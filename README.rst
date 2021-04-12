@@ -11,12 +11,6 @@ Introduction
     :target: https://adafru.it/discord
     :alt: Discord
 
-
-.. image:: https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Color_Picker/workflows/Build%20CI/badge.svg
-    :target: https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Color_Picker/actions
-    :alt: Build Status
-
-
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
     :alt: Code Style: Black
